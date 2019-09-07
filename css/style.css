@@ -1,0 +1,188 @@
+body {
+  text-align: center;
+  /*1st way to align body without width set up*/
+  background-color: #f7fbfc;
+  margin: auto;
+}
+
+h1 {
+  width: 20%;
+  /*2nd way to align block with width set up*/
+  margin: 15px auto 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Cookie', cursive;
+  font-size: 4rem;
+  color: #fce38a;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #fce38a;
+  width: 20%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 0;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #769fcd;
+}
+
+p {
+  font-family: 'Chilanka', cursive;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: auto;
+  padding: 10px;
+}
+
+img {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15%;
+  width: 15%;
+  display: block;
+}
+
+hr {
+  border-style: none;
+  width: 30%;
+  border-top-style: dotted;
+  border-color: #b9d7ea;
+  border-width: 5px;
+}
+
+table {
+  width: 20%;
+  margin: 10px auto 10px auto;
+}
+/*.tab-row{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.nav-row {
+  background-color: #769fcd;
+  position: fixed;
+  overflow: auto;
+  float: right;
+  padding-top: 10px;
+  margin-right: 10px;
+  display:inline;
+}*/
+.footer-link {
+  color: #d6e6f2;
+  width: 5px;
+  height: 5px;
+}
+.home-icon{
+  float: left;
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.top {
+  font-size: 20px;
+  margin: 0 0 30px 0;
+  padding: 20px 20px 20px 20px;
+  font-weight: normal;
+  background-color: #769fcd;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.middle {
+  margin: 0 auto 0 auto;
+  font-family: 'Gudea', sans-serif;
+}
+
+.bottom {
+  padding: 20px 20px 20px 20px;
+  background-color: #769fcd;
+  margin: 30px 0 0 0;
+}
+.my-skills{
+  padding: 20px;
+}
+
+.skill-row1 {
+  width: 60%;
+  margin: 50px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.skill-row2{
+  width: 60%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: right;
+}
+
+.website-icon {
+  float: left; /*to more text left side of image*/
+  margin-right: 30px;
+  width: 20%;
+}
+
+.calculator-icon {
+  float: right;
+  width: 20%;
+  margin-left: 30px;
+
+}
+
+.signature{
+  font-family: 'PT Serif', serif;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.myButton {
+  -moz-box-shadow: 0 1px 0 0 #9fb4f2;
+  -webkit-box-shadow: 0 1px 0 0 #9fb4f2;
+  box-shadow: 0 1px 0 0 #9fb4f2;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #005892), color-stop(1, #476e9e));
+  background: -moz-linear-gradient(top, #005892 5%, #476e9e 100%);
+  background: -webkit-linear-gradient(top, #005892 5%, #476e9e 100%);
+  background: -o-linear-gradient(top, #005892 5%, #476e9e 100%);
+  background: -ms-linear-gradient(top, #005892 5%, #476e9e 100%);
+  background: linear-gradient(to bottom, #005892 5%, #476e9e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#005892', endColorstr='#476e9e', GradientType=0);
+  background-color: #005892;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #edf9fc;
+  font-family: Trebuchet MS;
+  font-size: 19px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #283966;
+}
+
+.myButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #005892));
+  background: -moz-linear-gradient(top, #476e9e 5%, #005892 100%);
+  background: -webkit-linear-gradient(top, #476e9e 5%, #005892 100%);
+  background: -o-linear-gradient(top, #476e9e 5%, #005892 100%);
+  background: -ms-linear-gradient(top, #476e9e 5%, #005892 100%);
+  background: linear-gradient(to bottom, #476e9e 5%, #005892 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#005892', GradientType=0);
+  background-color: #476e9e;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
