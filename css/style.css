@@ -60,19 +60,7 @@ table {
   width: 20%;
   margin: 10px auto 10px auto;
 }
-/*.tab-row{
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-.nav-row {
-  background-color: #769fcd;
-  position: fixed;
-  overflow: auto;
-  float: right;
-  padding-top: 10px;
-  margin-right: 10px;
-  display:inline;
-}*/
+
 .footer-link {
   color: #d6e6f2;
   width: 5px;
@@ -132,11 +120,15 @@ table {
   width: 20%;
 }
 
-.calculator-icon {
+.project-icon {
   float: right;
   width: 20%;
   margin-left: 30px;
+}
 
+.project-link{
+  text-decoration: none;
+  color: inherit;
 }
 
 .signature{
